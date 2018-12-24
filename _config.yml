@@ -139,7 +139,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      https://github.com/yannickn262
+      "https://github.com/yannickn262"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
