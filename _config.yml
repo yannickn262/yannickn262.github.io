@@ -106,7 +106,7 @@ author:
   name             : "Yannick Nandury"
   avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Happy to be here"
-  location         : "Greater NY Area (Summit, NJ)"
+  location         : "Summit, NJ (Greater NY Area)"
   email            :  "nandury@umich.edu"
   links:
     - label: "Email"
@@ -140,10 +140,8 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/yannickn262
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: https://gitlab.com/nandury
       # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
