@@ -104,19 +104,16 @@ analytics:
 # Site Author
 author:
   name             : "Yannick Nandury"
-  avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Happy to be here"
-  location         : "Summit, NJ (Greater NY Area)"
+  avatar           : "/images/bio-photo-small.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Happy that this compiled "
+  location         : "Greater NY Area"
   email            :  "nandury@umich.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:nandury@umich.edu
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/in/yannick-nandury-865492162/
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
