@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "Yannick Nandury"
-  avatar           : "/images/main-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/douche.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Happy that this compiled "
   location         : "Greater NY Area"
   email            :  "nandury@umich.edu"
