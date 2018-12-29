@@ -4,8 +4,8 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/myblog/jekyll/update/welcome-to-jekyll/",
         "teaser":null},{
-        "title": "Projects: Twitter Sentiment Analysis",
-        "excerpt":"##Twitter Sentiment Analysis  This project was first developed during the Summer’18. It was updated in the fall.    ","categories": [],
-        "tags": ["machine learning","data science","natural language processing"],
+        "title": "Sentimentanal",
+        "excerpt":" ","categories": [],
+        "tags": [],
         "url": "http://localhost:4000/sentimentanal/",
         "teaser":null}]
