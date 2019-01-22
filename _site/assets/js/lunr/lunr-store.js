@@ -5,7 +5,7 @@ var store = [{
         "url": "http://localhost:4000/myblog/jekyll/update/welcome-to-jekyll/",
         "teaser":null},{
         "title": "Projects: Twitter Sentiment Analysis",
-        "excerpt":"Twitter Sentiment Analysis  This project was first developed during the Summer’18. It was updated in the fall.    ","categories": [],
+        "excerpt":"Twitter Sentiment Analysis This project was first developed during the Summer’18. It was updated in the fall. The algorithm can calculate an accurate polarity score for up to a 1000 Tweets at a time. The score is from -1 which is the worst thing you can say about someone to...","categories": [],
         "tags": ["machine learning","data science","natural language processing"],
         "url": "http://localhost:4000/sentimentanal/",
         "teaser":null}]

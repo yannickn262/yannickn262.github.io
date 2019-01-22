@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Projects: Twitter Sentiment Analysis - Yannick Nandury</title>
-<meta name="description" content="Machine Learning, Twitter Sentiment Analysis, Natural language processing">
+<meta name="description" content="Twitter Sentiment Analysis, Natural language processing">
 
 
 
@@ -21,7 +21,7 @@
 <meta property="og:url" content="http://localhost:4000/sentimentanal/">
 
 
-  <meta property="og:description" content="Machine Learning, Twitter Sentiment Analysis, Natural language processing">
+  <meta property="og:description" content="Twitter Sentiment Analysis, Natural language processing">
 
 
 
@@ -291,7 +291,7 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Projects: Twitter Sentiment Analysis">
-    <meta itemprop="description" content="Machine Learning, Twitter Sentiment Analysis, Natural language processing">
+    <meta itemprop="description" content="Twitter Sentiment Analysis, Natural language processing">
     <meta itemprop="datePublished" content="December 28, 2018">
     
 
@@ -306,7 +306,7 @@
 
 
 
-  less than 1 minute read
+  1 minute read
 </p>
           
         </header>
@@ -315,8 +315,25 @@
       <section class="page__content" itemprop="text">
         
         <p>Twitter Sentiment Analysis</p>
-<h3 id="this-project-was-first-developed-during-the-summer18-it-was-updated-in-the-fall">This project was first developed during the Summer’18. It was updated in the fall.</h3>
-<p><img src="twcodec.png" alt="Sample Code" /></p>
+<h3 id="this-project-was-first-developed-during-the-summer18-it-was-updated-in-the-fall-the-algorithm-can-calculate-an-accurate-polarity-score-for-up-to-a-1000-tweets-at-a-time-the-score-is-from--1-which-is-the-worst-thing-you-can-say-about-someone-to-1-being-the-most-positive-thing">This project was first developed during the Summer’18. It was updated in the fall. The algorithm can calculate an accurate polarity score for up to a 1000 Tweets at a time. The score is from -1 which is the worst thing you can say about someone to 1 being the most positive thing.</h3>
+
+<p>Sample Code:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">while</span> <span class="n">retry</span> <span class="o">==</span> <span class="bp">True</span><span class="p">:</span>
+      <span class="n">keywordSearch</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a keyword/hashtag:  "</span><span class="p">)</span>
+      <span class="n">public_tweets</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">keywordSearch</span><span class="p">)</span>
+      <span class="n">noOfSearchTerms</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">"Enter how many tweets to analyze: "</span><span class="p">))</span>
+      <span class="n">tweets</span> <span class="o">=</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">Cursor</span><span class="p">(</span><span class="n">api</span><span class="o">.</span><span class="n">search</span><span class="p">,</span> <span class="n">q</span> <span class="o">=</span> <span class="n">keywordSearch</span><span class="p">,</span> <span class="n">lang</span> <span class="o">=</span> <span class="s">"English"</span><span class="p">)</span><span class="o">.</span><span class="n">items</span><span class="p">(</span><span class="n">noOfSearchTerms</span><span class="p">)</span>
+    <span class="c1">#above line is responsible for creating filters as to how to narrow down search results
+</span></code></pre></div></div>
+<h3 id="admittedly-i-got-this-inspiration-after-watching-a-couple-hours-of--a-random-collection-of--youtube-videos-i-started-by-taking-two-portions-of-code-from-two-separate-videos-after-the-merging-of-both-code-bases-and-the-inevitable-build-failure-i-decided-to-start-over-and-take-certain-aspects-from-each-that-i-found-most-interesting-the-authentication-and-enabling-the-twitter-api-is-a-straightforward-process-that-was-identical-in-both-however-the-development-of-the-classifications-of-the-polarity-scores-is-what-i-modified-the-most-moreover-i-think-the--pie-chart-through-the-matplotlib-library-was-the-aspect-that-caused-the-most-difficulty-due-to-trouble-relaying-the-data-from-the-twitter-api-into-accurate-color-coded-proportions">Admittedly, I got this inspiration after watching a couple hours of  a random collection of  Youtube videos. I started by taking two portions of code from two separate videos. After the merging of both code bases and the inevitable build failure, I decided to start over and take certain aspects from each that I found most interesting. The authentication and enabling the Twitter API is a straightforward process that was identical in both. However, the development of the classifications of the polarity scores is what I modified the most. Moreover, I think the  pie chart through the Matplotlib library was the aspect that caused the most difficulty due to trouble relaying the data from the Twitter API into accurate color-coded proportions.</h3>
+<p>Python Sample Code:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#this creates the pie chart
+</span>  <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Positive ['</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">pos</span><span class="p">)</span><span class="o">+</span> <span class="s">'</span><span class="si">%</span><span class="s">]'</span><span class="p">],</span> <span class="s">'Neutral ['</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">neutral</span><span class="p">)</span> <span class="o">+</span> <span class="s">'</span><span class="si">%</span><span class="s">]'</span><span class="p">,</span> <span class="s">'Negative ['</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">neg</span><span class="p">)</span> <span class="o">+</span><span class="s">'</span><span class="si">%</span><span class="s">]'</span>
+  <span class="n">sizes</span> <span class="o">=</span> <span class="p">[</span><span class="n">pos</span><span class="p">,</span> <span class="n">neutral</span><span class="p">,</span> <span class="n">neg</span><span class="p">]</span>
+  <span class="n">colors</span> <span class="o">=</span> <span class="p">[</span><span class="s">'yellowgreen'</span><span class="p">,</span> <span class="s">'gold'</span><span class="p">,</span> <span class="s">'red'</span><span class="p">]</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">sizes</span><span class="p">,</span> <span class="n">colors</span> <span class="o">=</span> <span class="n">colors</span><span class="p">,</span> <span class="n">startangle</span> <span class="o">=</span> <span class="mi">90</span><span class="p">,</span> <span class="n">autopct</span><span class="o">=</span><span class="s">'</span><span class="si">%1.1</span><span class="s">f</span><span class="si">%%</span><span class="s">'</span><span class="p">)</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s">'equal'</span><span class="p">)</span>
+</code></pre></div></div>
 
         
       </section>
