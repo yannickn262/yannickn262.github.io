@@ -7,4 +7,4 @@ header:
   image: "/images/jax.jpg"
 ---
 Resume
-{{yannickn262.github.io/}}/assets/resume.pdf
+{{yannickn262.github.io/}}assets/resume.pdf
