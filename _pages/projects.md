@@ -7,5 +7,5 @@ header:
   image: "/images/jax.jpg"
 ---
 <h2>Resume <br> </h2>
-<a href="assets/resume.pdf" target="_blank">Resume.</a>
+<a href="resume.pdf" target="_blank">Resume</a>
 
