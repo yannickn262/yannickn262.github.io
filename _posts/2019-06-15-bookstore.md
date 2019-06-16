@@ -1,5 +1,5 @@
 ---
-title: "Desktop Database Application: Bookstore"
+title: "Projects: Desktop Database Application - Bookstore"
 date: 2019-06-15
 tags: [databases, sql, python, bookstore]
 header:
