@@ -5,7 +5,7 @@ tags: [Pandas, Data Science, Webscraping]
 header:
   image: "images/jax.png"
 body:
-  image: "images/realestate.png"
+  image: "images/jax.png"
 excerpt: "Webscraping Real Estate Data, using Realtor.com on Jacksonville Area"
 ---
 
