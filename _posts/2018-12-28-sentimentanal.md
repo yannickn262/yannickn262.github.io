@@ -9,7 +9,6 @@ body:
 excerpt: "Twitter Sentiment Analysis, Natural language processing"
 ---
 
-Twitter Sentiment Analysis
 ### This project was first developed during the Summer'18. It was updated in the fall. The algorithm can calculate an accurate polarity score for up to a 100 Tweets at a time. The score is from -1 which is the worst thing you can say about someone to 1 being the most positive thing. 
 
 Sample Code:
