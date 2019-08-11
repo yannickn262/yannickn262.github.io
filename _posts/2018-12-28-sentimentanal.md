@@ -9,7 +9,7 @@ body:
 excerpt: "Twitter Sentiment Analysis, Natural language processing"
 ---
 
-### This project was first developed during the Summer'18. It was updated in the fall. The algorithm can calculate an accurate polarity score for up to a 100 Tweets at a time. The score is from -1 which is the worst thing you can say about someone to 1 being the most positive thing. 
+This project was first developed during the Summer'18. It was updated in the fall. The algorithm can calculate an accurate polarity score for up to a 100 Tweets at a time. The score is from -1 which is the worst thing you can say about someone to 1 being the most positive thing. 
 
 Sample Code:
 ```python
@@ -20,7 +20,8 @@ Sample Code:
       tweets = tweepy.Cursor(api.search, q = keywordSearch, lang = "English").items(noOfSearchTerms)
     #above line is responsible for creating filters as to how to narrow down search results
 ```
-### Admittedly, I got this inspiration after watching a couple hours of  a random collection of  Youtube videos. I started by taking two portions of code from two separate videos. After the merging of both code bases and the inevitable build failure, I decided to start over and take certain aspects from each that I found most interesting. The authentication and enabling the Twitter API is a straightforward process that was identical in both. However, the development of the classifications of the polarity scores is what I modified the most. Moreover, I think the  pie chart through the Matplotlib library was the aspect that caused the most difficulty due to trouble relaying the data from the Twitter API into accurate color-coded proportions.
+Admittedly, I got this inspiration after watching a couple hours of  a random collection of  Youtube videos. I started by taking two portions of code from two separate videos. After the merging of both code bases and the inevitable build failure, I decided to start over and take certain aspects from each that I found most interesting. The authentication and enabling the Twitter API is a straightforward process that was identical in both. However, the development of the classifications of the polarity scores is what I modified the most. Moreover, I think the  pie chart through the Matplotlib library was the aspect that caused the most difficulty due to trouble relaying the data from the Twitter API into accurate color-coded proportions.
+
 Python Sample Code:
 ```python
 #this creates the pie chart
