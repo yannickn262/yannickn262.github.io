@@ -6,7 +6,7 @@ header:
   image: "images/realestate.png"
 
   
-excerpt: "Webscraping Real Estate Data, using Realtor.com on Jacksonville Area"
+excerpt: "Webscraping Real Estate Data, using Realtor.com in Jacksonville Area"
 ---
 
 Webscraping Real Estate Data
