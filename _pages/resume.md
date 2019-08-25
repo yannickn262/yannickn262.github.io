@@ -1,7 +1,6 @@
 ---
 layout: archive
-permalink: /projects/
-title: "Project Posts organized by Tags"
+permalink: /resume/
 author_profile: true
 header:
   image: "/images/jax.jpg"
