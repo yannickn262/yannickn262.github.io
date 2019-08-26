@@ -7,5 +7,5 @@ header:
 ---
 
 <a href="/pdf/resume.pdf" target="_blank">Resume</a>
-<embed src="https://yannickn262.github.io/pdf/resume.pdf" type="application/pdf" width = "1600%" height = "900"/>
+<embed src="https://yannickn262.github.io/pdf/resume.pdf" type="application/pdf" width = "100%" height = "100%"/>
 
