@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Yannick Nandury"
 title_separator          : "-"
-name                     : "Data Science Portfolio"
-description              : "Data Science Portfolio"
+name                     : "Product Management Portfolio"
+description              : "Product Management Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,8 +105,8 @@ analytics:
 author:
   name             : "Yannick Nandury"
   avatar           : "/images/bio.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Developer turned Product Manager - Happy this compiled :)"
-  location         : "Greater NY Area"
+  bio              : "Developer turned Product Manager :)"
+  location         : "New York, NY"
   email            :  "yannickn262@gmail.com"
   links:
     - label: "Website"
@@ -138,8 +138,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/yannickn262
-
-   
+      # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
