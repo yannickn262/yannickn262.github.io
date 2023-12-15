@@ -2,7 +2,7 @@
 title: "About Me Page"
 permalink:  /about/
 header:
-  image: "images/city.jpg"
+  image: "images/FiDi.jpg"
 ---
 Hi! I'm currently working as a Junior Product Manager / Business Analyst at Bank of America (NYC) under the Market, Sales, and Research technology team.
 
